@@ -16,7 +16,7 @@
    - Развернула приложение на production-сервере (Ubuntu, systemd, SSH-туннели). Настроила cron для автообновления.
 4. **Работа с Big Data**: Использовала **DuckDB** для агрегации датасетов до 33 млн строк без загрузки в RAM.
 
-##  Технологический стек
+## Технологический стек
 - **Язык**: Python
 - **Web & API**: Streamlit, FastAPI, Uvicorn
 - **Данные**: Pandas, NumPy, **DuckDB**, PyArrow, Parquet
@@ -34,21 +34,20 @@
 
 ## Визуализация (Скриншоты реального дашборда)
 
-![Статус системы и KPI](dashboard_stats.png)
+![Статус системы и KPI](docs/dashboard_stats.png)
 *Статус системы: обработка более 660 тыс. публикаций и 4,6 млн патентов*
 
-![Динамика развития](dashboard_chart.png)
+![Динамика развития](docs/dashboard_chart.png)
 *Dual-Axis график: динамика научных публикаций и патентов*
 
-![Topic Card и метрики](dashboard_card.png)
+![Topic Card и метрики](docs/dashboard_card.png)
 *KPI-карточки: Time Lag, Trend Score и AI Share*
 
-![География патентования](dashboard_geo.png)
+![География патентования](docs/dashboard_geo.png)
 *Топ заявителей и география патентования (хороплет)*
 
-![Распределение временного лага](dashboard_lags.png)
+![Распределение временного лага](docs/dashboard_lags.png)
 *Гистограмма распределения временного лага (Time Lag)*
 
 ## Документация
 - [Отчет по оптимизации ресурсов](./docs/resources_report.txt)
-
